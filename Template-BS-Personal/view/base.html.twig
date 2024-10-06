@@ -1,3 +1,47 @@
-{% block content %}
-<h1>Hello</h1>
+<!doctype html>
+<html lang="{% block siteLang %}fr{% endblock %}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   {% block meta_plus %}
+       {# Add extra meta tags here (og:title for example) #}
+   {% endblock %}
+{% block stylesheets %}
+     {% block style_user %}
+         {# Add non-template stylesheets here #}
+     {% endblock %}
+ {% endblock %}
+    {% block license %}
+        {# In case the template requires inclusion of Author details #}
+    {% endblock %}
+    <title>{% block title %}Template Builder{% endblock %}</title>
+</head>
+
+<body>
+    {% block header %}
+        {% block headerTitle %}{% endblock %}
+            {% block navBar %}{% endblock %}
+    {% endblock %}
+
+    {% block main %}
+        {% block hero %}{% endblock %}
+        <div class="sidebar-left-base">{% block sideBarLeft %}{% endblock %}</div>
+        <div class="main-content-base">{% block mainMiddle %}{% endblock %}</div>
+        <div class="sidebar-right-base">{% block sideBarRight %}{% endblock %}</div>
+    {% endblock %}
+
+    {% block footer %}
+        <footer>
+            <p class="flex place-self-center mt-20 absolute bottom-40 align-middle">&copy;<a href="https://leerlandais.com">Leerlandais  {{ 'now' | date('Y') }}</a></p>
+        </footer>
+    {% endblock %}
+
+{% block scripts %}
+    {% block script_user %}
+        {# Add non-template scripts here #}
+    {% endblock %}
 {% endblock %}
+</body>
+</html>

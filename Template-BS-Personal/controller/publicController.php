@@ -1,3 +1,3 @@
 <?php
 
-echo $twig->render("template.html.twig");
+echo $twig->render("/public/public.home.html.twig");
