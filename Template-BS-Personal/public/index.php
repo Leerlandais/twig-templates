@@ -22,6 +22,9 @@ $twig = new Environment($loader, [
 ]);
 $twig->addExtension(new \Twig\Extension\DebugExtension());
 
+$twig->addGlobal('PUBLIC_DIR', PUB_DIR);
+$twig->addGlobal('PROJECT_DIR', PROJECT_DIRECTORY);
+
 /*
 // Prod version
 $twig = new Environment($loader, [
