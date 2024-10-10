@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Reporter by Leerlandais{% endblock %}
+  {% block meta %}{% endblock %}
+  {% block stylesheets %}{% endblock %}
+
+
+{% block body %}
+  {% block header %} {% endblock %}
+
+  {% block main %}
+    {% block mainArt %}{% endblock %}
+    {% block miniArt %}{% endblock %}
+
+
+    {% block sideBar %}
+        {% block topWidget %}{% endblock %}
+        {% block recWidget %}{% endblock %}
+        {% block catWidget %}{% endblock %}
+    {% endblock %} {# end sideBar #}
+  {% endblock %} {# end main #}
+
+
+  {% block footer %}{% endblock %}
+
+    {% block scripts %} {% endblock %}
+{% endblock %} {# end body #}
+
