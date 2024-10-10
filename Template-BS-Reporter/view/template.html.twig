@@ -17,7 +17,7 @@
   {% endblock %}
 
 
-{% block body %}
+
   {% block header %}
     <header class="navigation">
       <div class="container">
@@ -66,6 +66,7 @@
   </div>
 </div>
 
+  {% endblock %} {# end main #}
     {% block sideBar %}
 <div class="col-lg-4">
 <div class="widget-blocks">
@@ -172,7 +173,6 @@
 </div>
 </div>
     {% endblock %} {# end sideBar #}
-  {% endblock %} {# end main #}
 
 
   {% block footer %}
@@ -197,6 +197,12 @@
     </footer>
   {% endblock %}
 
-    {% block scripts %} {% endblock %}
-{% endblock %} {# end body #}
+    {% block scripts %}
+      <!-- # JS Plugins -->
+      <script src="{{ PUB_DIR }}plugins/jquery/jquery.min.js"></script>
+      <script src="{{ PUB_DIR }}plugins/bootstrap/bootstrap.min.js"></script>
+
+      <!-- Main Script -->
+      <script src="{{ PUB_DIR }}js/script.js"></script>{% endblock %}
+
 
