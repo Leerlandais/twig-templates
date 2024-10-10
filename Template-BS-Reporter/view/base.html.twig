@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
+
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <title>Reporter - HTML Blog Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <meta name="description" content="This is meta description">
+  <meta name="author" content="Themefisher">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+  {% block meta %}{% endblock %}
+  {% block stylesheets %}{% endblock %}
+
+</head>
+
+<body>
+{% block body %}
+  {% block header %} {% endblock %}
+
+<main>
+  <section class="section">
+    <div class="container">
+      <div class="row no-gutters-lg">
+  {% block main %}
+    {% block mainArt %}{% endblock %}
+    {% block miniArt %}{% endblock %}
+
+
+    {% block sideBar %}
+        {% block topWidget %}{% endblock %}
+        {% block recWidget %}{% endblock %}
+        {% block catWidget %}{% endblock %}
+    {% endblock %} {# end sideBar #}
+  {% endblock %} {# end main #}
+      </div>
+    </div>
+  </section>
+</main>
+
+  {% block footer %}{% endblock %}
+
+    {% block scripts %} {% endblock %}
+{% endblock %} {# end body #}
+</body>
