@@ -13,6 +13,7 @@ pnpm-debug.log*
 /var/log/*.log
 /node_modules/
 /vendor/
+public/vendor/
 /.pnp/
 /.pnp.js
 .env
