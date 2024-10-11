@@ -4,7 +4,7 @@
 $route = $_GET['route'] ?? 'home';
 switch ($route) {
     case 'home':
-        echo $twig->render("template.html.twig");
+        echo $twig->render("public/public.index.html.twig");
         break;
 
     default:

@@ -1,0 +1,36 @@
+{% extends 'template.html.twig' %}
+
+    {% block fonts %}{{ parent() }}{% endblock %}
+
+    {% block stylesheets %}{{ parent() }}{% endblock %}
+
+{% block title %}{{ parent() }}{% endblock %}
+
+
+{% block header %}
+    {{ parent() }}
+{% endblock %}
+{% block main %}
+    {{ parent() }}
+
+        {% block hero %}{{ parent() }}{% endblock %}
+
+        {% block clients %}{{ parent() }}{% endblock %}
+
+        {% block about %}{{ parent() }}{% endblock %}
+        {% block featService %}{{ parent() }}{% endblock %}
+
+        {% block featSection %}{{ parent() }}{% endblock %}
+        {% block servSection %}{{ parent() }}{% endblock %}
+
+        {% block portfolio %}{{ parent() }}{% endblock %}
+
+        {% block team %}{{ parent() }}{% endblock %}
+        {% block pricing %}{{ parent() }}{% endblock %}
+        {% block faq %}{{ parent() }}{% endblock %}
+        {% block contact %}{{ parent() }}{% endblock %}
+{% endblock %}
+{% block footer %}{{ parent() }}{% endblock %}
+
+{% block scroller %}{{ parent() }}{% endblock %}
+{% block scripts %}{{ parent() }}{% endblock %}
