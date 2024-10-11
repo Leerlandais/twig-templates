@@ -11,3 +11,4 @@ netlify
 
 vendor/
 .idea/
+config.php
