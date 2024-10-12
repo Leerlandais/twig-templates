@@ -1,7 +1,4 @@
 <?php
-
-
-
 use Twig\Loader\FilesystemLoader;
 use Twig\Environment;
 
