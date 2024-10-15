@@ -2,6 +2,7 @@
 
 
 {% block main %}
+    {% block banner %}
     <!-- banner -->
     <div class="bg-cover bg-no-repeat bg-center py-36" style="background-image: url('assets/images/banner-bg.jpg');">
         <div class="container">
@@ -18,7 +19,8 @@
         </div>
     </div>
     <!-- ./banner -->
-
+    {% endblock %}
+{% block features %}
     <!-- features -->
     <div class="container py-16">
         <div class="w-10/12 grid grid-cols-1 md:grid-cols-3 gap-6 mx-auto justify-center">
@@ -46,7 +48,8 @@
         </div>
     </div>
     <!-- ./features -->
-
+{% endblock %}{# endFeat #}
+{% block categories %}
     <!-- categories -->
     <div class="container py-16">
         <h2 class="text-2xl font-medium text-gray-800 uppercase mb-6">shop by category</h2>
@@ -86,7 +89,8 @@
         </div>
     </div>
     <!-- ./categories -->
-
+{% endblock %}{# endCategories #}
+{% block arrival %}
     <!-- new arrival -->
     <div class="container pb-16">
         <h2 class="text-2xl font-medium text-gray-800 uppercase mb-6">top new arrival</h2>
@@ -258,7 +262,8 @@
         </div>
     </div>
     <!-- ./new arrival -->
-
+{% endblock %}{# endArrival #}
+{% block ads %}
     <!-- ads -->
     <div class="container pb-16">
         <a href="#">
@@ -266,7 +271,8 @@
         </a>
     </div>
     <!-- ./ads -->
-
+{% endblock %}{# endAds #}
+{% block product %}
     <!-- product -->
     <div class="container pb-16">
         <h2 class="text-2xl font-medium text-gray-800 uppercase mb-6">recomended for you</h2>
@@ -602,5 +608,5 @@
         </div>
     </div>
     <!-- ./product -->
-
-{% endblock %}
+{% endblock %}{# endProduct #}
+{% endblock %}{# endMain #}
