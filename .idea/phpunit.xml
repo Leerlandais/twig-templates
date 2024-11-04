@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PHPUnit">
+    <option name="directories">
+      <list>
+        <option value="$PROJECT_DIR$/Template-BS-Zenblog/tests" />
+        <option value="$PROJECT_DIR$/Template-BS-Personal/tests" />
+        <option value="$PROJECT_DIR$/Template-BS-Joyseno/tests" />
+        <option value="$PROJECT_DIR$/Template-BS-Bocor/tests" />
+        <option value="$PROJECT_DIR$/Template-BS-ECommerce/tests" />
+      </list>
+    </option>
+  </component>
+</project>

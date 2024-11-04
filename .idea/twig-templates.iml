@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Template-BS-Bocor/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Template-BS-Bocor/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Template-BS-ECommerce/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Template-BS-ECommerce/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Template-BS-Joyseno/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Template-BS-Joyseno/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Template-BS-Personal/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Template-BS-Personal/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Template-BS-Zenblog/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Template-BS-Zenblog/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Bocor/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Bocor/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Bocor/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Bocor/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Bocor/vendor/symfony/polyfill-php81" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Bocor/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-ECommerce/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-ECommerce/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-ECommerce/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-ECommerce/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-ECommerce/vendor/symfony/polyfill-php81" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-ECommerce/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Joyseno/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Joyseno/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Joyseno/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Joyseno/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Joyseno/vendor/symfony/polyfill-php81" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Joyseno/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Personal/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Personal/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Personal/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Personal/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Personal/vendor/symfony/polyfill-php81" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Personal/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Reporter/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Reporter/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Reporter/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Reporter/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Reporter/vendor/symfony/polyfill-php81" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Reporter/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Zenblog/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Zenblog/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Zenblog/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Zenblog/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Zenblog/vendor/symfony/polyfill-php81" />
+      <excludeFolder url="file://$MODULE_DIR$/Template-BS-Zenblog/vendor/twig/twig" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
